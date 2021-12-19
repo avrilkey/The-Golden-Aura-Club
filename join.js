@@ -1,7 +1,8 @@
-var fname = document.getElementById('fname')
-var lname = document.getElementById('lname')
-var number = document.getElementById('number')
-var email = document.getElementById('email')
+const form = document.getElementById('form')
+const fname = document.getElementById('fname')
+const lname = document.getElementById('lname')
+const phone_number = document.getElementById('phone_number')
+const email = document.getElementById('email')
     
 
   form.addEventListener('submit', (e) => {
@@ -13,19 +14,19 @@ var email = document.getElementById('email')
       return false
     }
 
-    if(number.value.length >= 12 &&  (number.value.range(0,9))){
-      return false
-    }
-
-    if(email.value === '' && email.value == null){
+    if(phone_number.value.length < 9 || (phone_number.value.length > 10 )){
+      alert('Try Again')
       return false
     } 
-    else {
-      alert('Your infromation has been submitted successfully. Thank you!')
-      console.log('Your infromation has been submitted successfully. Thank you!')
+    if(email.value === '' && email.value == null){
+      return false
+
+    } else{
+      alert('Your information has been accepted, Thank you!')
+      console.log('information accepted')
     }
+
     e.preventDefault()
     }) 
-
 
    
