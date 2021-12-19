@@ -66,7 +66,7 @@ a:link{
 .services p{
  text-align: justify;
  font-size: 19px;
- padding-right: 5px;
+ padding-right: 3px;
  padding-bottom: 10px;
  padding-top: 5px;
  margin-bottom: 0%;
@@ -75,7 +75,7 @@ a:link{
 /*image*/
 .image img {
 margin-left: 56%;
-margin-top: -1409px;
+margin-top: -1399px;
 width:50%;
 height:100%;
 }
