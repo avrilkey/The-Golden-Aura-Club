@@ -56,6 +56,7 @@ a:link{
     color:#52b788;
     text-align: center;
     margin-top: 4%;
+    margin-bottom:2%;
 }
 
 .services h4:hover{
@@ -74,7 +75,7 @@ a:link{
 /*image*/
 .image img {
 margin-left: 54%;
-margin-top: -1100px;
+margin-top: -1300px;
 width:50%;
 height:90%;
 }
