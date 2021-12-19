@@ -37,7 +37,7 @@ a:link{
 }
 
 .services h3{
-    margin-left: 19%;
+    margin-left: 17%;
 }
 
 .services h3, .feedback h3{
@@ -56,7 +56,7 @@ a:link{
     color:#52b788;
     text-align: center;
     margin-top: 4%;
-    margin-bottom:2%;
+    margin-bottom:5%;
 }
 
 .services h4:hover{
@@ -65,7 +65,7 @@ a:link{
 
 .services p{
  text-align: justify;
- font-size: 19px;
+ font-size: 17px;
  padding-right: 3px;
  padding-bottom: 10px;
  padding-top: 5px;
