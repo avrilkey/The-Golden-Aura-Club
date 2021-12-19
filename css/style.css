@@ -1,0 +1,63 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body{
+    background-color: #c5daab;
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+/*Navigation*/
+.h1 h1{
+    color: black;
+    font-weight: 300;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+.navigation{
+    color: #054a29!important;
+    text-decoration: none;
+    margin-left: 76%;
+    word-spacing: 18px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: -4.5%;
+    margin-bottom: 0%;
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+/*Home container*/
+/*Image*/
+.home video {
+    align-content: center;
+    width: 96%;
+    height: 100%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
+
+/*Button*/
+button{
+    border: 1px solid #52b788;
+    font-size: 50px;
+    margin-left: 37%;
+
+}
+
+/*Footer*/
+.footer-container{
+    color: #054a29;
+    text-align: center;
+}
+
+.footer-container p{
+    margin-top: 2%;
+}
+
+
+

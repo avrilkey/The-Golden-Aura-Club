@@ -1,0 +1,116 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body{
+    background-color: #c5daab;
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+/*Navigation*/
+ .h1 h1{
+    font-size: 32.1px;
+    color: black;
+    font-weight: 300!important;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.navigation{
+    color: #054a29!important;
+    text-decoration: none;
+    margin-left: 76%;
+    word-spacing: 18px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: -3.7%;
+    margin-bottom: 2%;
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+.services{
+    width: 50%;
+    margin-left: -2%;
+}
+
+.services h3{
+    margin-left: 19%;
+}
+
+.services h3, .feedback h3{
+    color: #054a29;
+    font-weight: 500;
+    font-size: 65px;
+}
+.services h3{
+    margin-top: 12%;
+    margin-bottom: -2%;
+}
+
+.services h4{
+    font-weight: 400;
+    font-size: 32px;
+    color:#52b788;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.services h4:hover{
+    color:black;
+}
+
+.services p{
+ text-align: justify;
+ font-size: 20px;
+ padding-right: 5px;
+ padding-bottom: 10px;
+ padding-top: 5px;
+ margin-bottom: 0%;
+}
+
+/*image*/
+.image img {
+margin-left: 54%;
+margin-top: -1100px;
+width:50%;
+height:90%;
+}
+
+
+/*Client Feedback*/
+.feedback h3{
+    text-align: center;
+}
+
+.feedback .container{
+    margin-bottom: 4%;
+}
+
+.feedback .card h3{
+    color: #52b788;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.feedback .ratings i {
+    color: #daae00;
+}
+
+
+
+/*Footer*/
+.footer-container{
+    color: #054a29;
+    text-align: center;
+}
+
+.footer-container p{
+    margin-top: 2%;
+}
+
+
+
+
